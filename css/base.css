@@ -1,5 +1,5 @@
 #wrapper {
-background: url(/static/base/images/stranica.jpg) no-repeat center top;
+background: url(../images/stranica.jpg) no-repeat center top;
 width: 100%;
 display: table;
 }
@@ -35,12 +35,12 @@ display: inline;
 #content-top {
 width: 571px;
 height: 26px;
-background: url(/static/base/images/von_kontent_top.png) no-repeat center top;
+background: url(../images/von_kontent_top.png) no-repeat center top;
 }
 #content-bottom {
 width: 571px;
 height: 26px;
-background: url(/static/base/images/von_kontent_bot.png) no-repeat center top;
+background: url(../images/von_kontent_bot.png) no-repeat center top;
 }
 #content-middle {
 width: 571px;
