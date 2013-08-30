@@ -1,9 +1,9 @@
-.nav {
+.menuaccordeon {
     margin: 0px;
     padding: 0px;
 }
 
-.nav > li > a {
+.menuaccordeon > li > a {
     display: block;
     width: 186px;
     height: 48px;
@@ -14,24 +14,24 @@
     margin-bottom: 5px;
 }
 
-.nav > li.active > a {
+.menuaccordeon > li.active > a {
     background: url('../images/knopka_pasiv.png');
 }
 
-.nav > li > ul > li {
+.menuaccordeon > li > ul > li {
     background: url('../images/marker)pasiv.png') no-repeat;
     padding-left: 20px;
 }
 
-.nav > li > ul > li.active {
+.menuaccordeon > li > ul > li.active {
     background: url('../images/marker)aktiv.png') no-repeat;
 }
 
-li > ul.nav-child {
+.menuaccordeon li > ul.nav-child {
   display: none;
 }
 
-li.opened > ul.nav-child {
+.menuaccordeon li.opened > ul.nav-child {
   display: block;
 }
 
