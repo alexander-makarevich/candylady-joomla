@@ -44,7 +44,7 @@ background: url(../images/von_kontent_bot.png) no-repeat center top;
 }
 #content-middle {
 width: 571px;
-background: pink;
+background: url(../images/von_kontent.png) repeat;
 }
 
 #content-middle > p {
