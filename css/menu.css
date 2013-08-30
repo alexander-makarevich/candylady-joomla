@@ -28,10 +28,40 @@
 }
 
 .menuaccordeon li > ul.nav-child {
-  display: none;
+    display: none;
 }
 
 .menuaccordeon li.opened > ul.nav-child {
-  display: block;
+    display: block;
+}
+
+.menuaccordeon ul.nav-child a {
+    color: white;
+    text-decoration: none;
+}
+
+.menuaccordeon > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+.menuaccordeon > li,
+.menuaccordeon > li > ul > li {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 4px solid white;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.menu a {
+    color: pink;
+    text-decoration: none;
 }
 

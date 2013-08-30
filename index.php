@@ -45,9 +45,10 @@ $tplparams	= $app->getTemplate(true)->params;
                     <div id="content">
                         <div id="content-top"></div>
                         <div id="content-middle">
-                            <p>aaa</p>
+                            <div>&nbsp;</div>
                             <jdoc:include type="message" />
                             <jdoc:include type="component" />
+                            <div>&nbsp;</div>
                         </div>
                         <div id="content-bottom"></div>
                     </div>
