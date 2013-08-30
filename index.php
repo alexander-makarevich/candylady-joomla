@@ -24,6 +24,8 @@ $tplparams	= $app->getTemplate(true)->params;
 	<!-- The following line loads the template CSS file located in the template folder. -->
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/clear.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/base.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/menu.css" type="text/css" />
+	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/menu.js" type="text/javascript"></script>
 
 </head>
 
