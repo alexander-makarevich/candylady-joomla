@@ -7,14 +7,11 @@
 #page {
     width: 924px;
     margin: 0 auto 0;
-    border: solid 1px #ccc;
-    /*height: 400px;*/
 }
 
 #header {
     height: 146px;
     padding-left: 600px;
-    border: solid 1px #ccc;
 }
 
 #l_sidebar {
