@@ -32,7 +32,10 @@ $tplparams	= $app->getTemplate(true)->params;
     <body>
         <div id="wrapper">
             <div id="page">
-                <div id="header"><?php echo $app->getCfg('sitename'); ?></div>
+                <div id="header">
+                    <?php echo $app->getCfg('sitename'); ?>
+                    <jdoc:include type="modules" name="position-0" />
+                </div>
                 <div id="l_sidebar">
                     <jdoc:include type="modules" name="menu-position" />
                     <jdoc:include type="modules" name="position-7" />

@@ -1,54 +1,78 @@
 #wrapper {
-background: url(../images/stranica.jpg) no-repeat center top;
-width: 100%;
-display: table;
+    background: url(../images/stranica.jpg) no-repeat center top;
+    width: 100%;
+    display: table;
 }
+
 #page {
-width: 924px;
-margin: 0 auto 0;
-border: solid 1px #ccc;
-/*height: 400px;*/
+    width: 924px;
+    margin: 0 auto 0;
+    border: solid 1px #ccc;
+    /*height: 400px;*/
 }
+
 #header {
-height: 146px;
-padding-left: 600px;
-border: solid 1px #ccc;
+    height: 146px;
+    padding-left: 600px;
+    border: solid 1px #ccc;
 }
 
 #l_sidebar {
-float: left;
-width: 188px;
-margin-right: 10px;
-margin-left: 70px;
-margin-top: 30px;
-line-height: 20px;
-display: inline;
+    float: left;
+    width: 188px;
+    margin-right: 10px;
+    margin-left: 70px;
+    margin-top: 30px;
+    line-height: 20px;
+    display: inline;
 }
+
 #r_sidebar {
-float: left;
-width: 571px;
-margin-top: 20px;
-margin-bottom: 20px;
-line-height: 20px;
-display: inline;
+    float: left;
+    width: 571px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    display: inline;
 }
+
 #content-top {
-width: 571px;
-height: 26px;
-background: url(../images/von_kontent_top.png) no-repeat center top;
+    width: 571px;
+    height: 26px;
+    background: url(../images/von_kontent_top.png) no-repeat center top;
 }
+
 #content-bottom {
-width: 571px;
-height: 26px;
-background: url(../images/von_kontent_bot.png) no-repeat center top;
+    width: 571px;
+    height: 26px;
+    background: url(../images/von_kontent_bot.png) no-repeat center top;
 }
+
 #content-middle {
-width: 571px;
-background: url(../images/von_kontent.png) repeat;
+    width: 571px;
+    background: url(../images/von_kontent.png) repeat;
 }
 
 #content-middle > p {
-margin: 0px;
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-bordered {
+    border-top: 1px solid #FF0000;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+    border: 1px solid #FF0000;
 }
 
 
