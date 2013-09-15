@@ -27,6 +27,23 @@ $tplparams	= $app->getTemplate(true)->params;
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/menu.css" type="text/css" />
 	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/menu.js" type="text/javascript"></script>
 
+	<!-- -->
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/elastislide/css/elastislide.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/elastislide/css/custom.css" type="text/css" />
+	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/elastislide/js/modernizr.custom.17475.js" type="text/javascript"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/elastislide/js/jquery.elastislide.js" type="text/javascript"></script>
+	<!-- -->
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/lightbox/css/lightbox.css" type="text/css" />
+	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/lightbox/js/jquery.smooth-scroll.min.js" type="text/javascript"></script>
+	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/lightbox/js/lightbox.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			var $e = $('#carousel');
+			$e && $e.elastislide();
+		});
+	</script>
 </head>
 
     <body>
