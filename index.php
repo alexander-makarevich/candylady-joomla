@@ -42,6 +42,11 @@ $tplparams	= $app->getTemplate(true)->params;
 		jQuery(document).ready(function($) {
 			var $e = $('#carousel');
 			$e && $e.elastislide();
+
+			$('a').smoothScroll({
+				speed: 1000,
+				easing: 'easeInOutCubic'
+			});
 		});
 	</script>
 </head>
